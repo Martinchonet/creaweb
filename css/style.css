@@ -1,0 +1,205 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/** solapa inicio **/
+
+.section1 {
+
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content:space-evenly;
+
+}
+
+.caja {
+    display:flexbox;
+    align-items: center;
+}
+
+.parrafo {
+    display: flex;
+    display: block;
+    text-align: left;
+    margin: 300px;
+    
+
+}
+
+
+.imagen1 {
+    height: 70%;
+    margin: 100px
+}
+
+.boton {
+    display: inline;
+    background-color: blueviolet;
+    padding: 10px;
+    width: 500px;
+    font-size: 20px;
+
+}
+
+.text-principal {
+    font-size: 20px;
+}
+
+
+
+
+/** solapa servicios **/
+
+
+
+
+
+
+
+
+/** solapa trabajos **/
+
+.col {
+    padding: 50px;
+    color: aliceblue;
+    
+}
+
+section {
+    background-color:rgb(177, 61, 61);
+    height: 120vh;
+}
+
+.imagen-trabajos {
+    border-radius: 4%;
+}
+
+
+
+
+
+
+
+/** solapa nosotros **/
+
+
+
+
+
+
+
+
+/** solapa contacto **/
+
+input,
+    textarea {
+    width: 100%;
+    padding: 5px;
+    outline: none;
+}
+
+label {
+    line-height: 1.9rem;
+}
+
+input[type="submit"] {
+    transform: translate(2.2%);
+    padding: 3px;
+    margin-top: 0.6rem;
+    font-family: cursive;
+    font-weight: bold;
+}
+
+fieldset {
+padding: 20px 40px;
+background-color: rgb(177, 61, 61);
+}
+
+legend {
+color: antiquewhite;
+}
+
+.section--contacto {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(177, 61, 61);
+
+}
+
+.imagen--contacto {
+    width: 60%;
+    background-color: rgb(177, 61, 61);
+
+}
+
+.imagencontacto {
+    text-align: center;
+    width: 50%;
+    height: 50%;
+}
+
+form {
+    margin-left: 150px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/**footer**/
+
+
+.footer {
+
+    height: 140px;
+    width: 100%;
+    display: flex;
+    background-color: #F8F9FA;
+}
+
+
+.redesfooter {
+    width: 50px;
+    height: 50px;
+    align-items: center;
+}
+
+.caja--footer__der {
+    width: 30%;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+        
+}
+
+.caja--footer__izq {
+    width: 30%;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+.caja--footer__med {
+    width: 40%;
+    text-align: center;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 40px;
+    
+}
+
