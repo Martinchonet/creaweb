@@ -210,12 +210,14 @@ H4 {
     width: 100%;
     display: flex;
     background-color: #F8F9FA;
+    bottom: 0;
 }
+
+
 
 
 .redesfooter {
     width: 50px;
-    height: 50px;
     align-items: center;
 }
 
