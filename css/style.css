@@ -179,6 +179,15 @@ padding: 20px 40px;
 background-color: #DDECFF;
 }
 
+@media screen and (max-width:800px){
+    .row row-cols-2
+    {
+        flex-direction: column;
+    }
+    }
+
+
+
 legend {
 color: #60A7FF;
 }
@@ -223,6 +232,12 @@ H4 {
     text-align: center;
 }
 
+@media screen and (max-width:800px){
+    .imagen--contacto {
+        opacity: 0%;
+    }
+}
+
 
 
 /*Footer*/
@@ -258,7 +273,7 @@ H4 {
 .pie-pagina .grupo-1 .box p{
     color: #efefef;
     margin-bottom: 10px;
-}
+    }
 .pie-pagina .grupo-1 .red-social a{
     display: inline-block;
     text-decoration: none;
@@ -295,3 +310,7 @@ H4 {
 h4 {
     color: #000000;
 }
+
+
+
+
