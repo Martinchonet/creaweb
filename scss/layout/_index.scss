@@ -1,0 +1,142 @@
+
+
+/** solapa inicio **/
+
+.section1 {
+
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content:space-evenly;
+    background-color: white;
+    box-sizing: border-box;
+
+}
+
+.caja {
+    display:flexbox;
+    align-items: center;
+    text-align: center;
+}
+
+.parrafo {
+    display: block;
+    text-align: left;
+}
+
+
+
+
+.imagen1 {
+    height: 70%;
+    
+
+}
+
+.text-principal {
+    font-size: 20px;
+}
+
+.imagen-derecha {
+    max-width: 80%;
+    
+}
+
+
+
+
+
+/** solapa servicios **/
+
+
+
+
+
+
+
+
+/** solapa trabajos **/
+
+.col {
+    padding: 50px;
+    color: aliceblue;
+
+    
+}
+
+section {
+    background-color:rgb(177, 61, 61);
+    height: 100vh;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+
+.imagen-trabajos {
+    border-radius: 4%;
+    width: 500px;
+    height: 300px;
+    transition-delay: 0s;
+    
+}
+
+
+
+
+
+
+
+
+
+
+/** solapa nosotros **/
+
+.section-nosotros {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100vh;
+    padding: 100px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+
+
+
+.img-fluid {
+    width: 60%;
+}
+
+
+
+
+
+
+
+
+
+.section--contacto {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(177, 61, 61);
+
+}
+
+.imagen--contacto {
+    width: 100%;
+    
+
+}
+
+.imagencontacto {
+    text-align: center;
+    width: 50%;
+    height: 50%;
+}

@@ -1,0 +1,63 @@
+
+
+@media screen and (max-width:800px){
+    .parrafo {text-align: center;}
+}
+
+@media screen and (max-width:800px){
+    .boton {align-items: center;}
+}
+
+@media screen and (max-width:600px){
+    .imagenderecha 
+    {text-align: center;
+    align-items: center;
+    }
+}
+
+
+@media screen and (max-width:800px){
+    .imagenderecha {
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap:30px;
+        padding: 35px 0px;
+    }
+}
+
+@media screen and (max-width:800px){
+    .imag-fluid {
+        width: 80%;
+        align-items: center;
+        margin: 40px;
+    }
+}
+
+
+@media screen and (max-width:850px){
+    .img-fluid {
+        opacity: 0%;
+    }
+}
+
+
+@media screen and (max-width:800px){
+    .container text-center {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:800px){
+    .pie-pagina .grupo-1{
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap:30px;
+        padding: 35px 0px;
+        }
+}
+
+@media screen and (max-width:800px){
+    .imagen--contacto {
+        opacity: 0%;
+    }
+}
