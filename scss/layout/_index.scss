@@ -15,8 +15,9 @@
 
 .caja {
     display:flexbox;
-    align-items: center;
-    text-align: center;
+    @include miprimermixin
+    //align-items: center;
+    //text-align: center;
 }
 
 .parrafo {
@@ -42,8 +43,13 @@
     
 }
 
-
-
+@media screen and (max-with: 800px) {
+    .parrafo
+    .imagenderecha  
+    {width: 100%;
+    float: none;
+}
+}
 
 
 /** solapa servicios **/
@@ -59,7 +65,7 @@
 
 .col {
     padding: 50px;
-    color: $primary-color;
+    color: aliceblue;
 
     
 }
@@ -75,20 +81,21 @@ section {
     
 }
 
+
 .imagen-trabajos {
+    transition-duration: 0.5s;
     border-radius: 4%;
     width: 500px;
     height: 300px;
-    transition-delay: 0s;
+    //transition-delay: 0s;
+
     
 }
 
+.imagen-trabajos:hover {
+    border-radius: 50%;
 
-
-
-
-
-
+}
 
 
 
@@ -118,8 +125,7 @@ section {
 
 
 
-
-
+/*
 .section--contacto {
     display: flex;
     align-items: center;
@@ -140,4 +146,4 @@ section {
     width: 50%;
     height: 50%;
 }
-
+    */
